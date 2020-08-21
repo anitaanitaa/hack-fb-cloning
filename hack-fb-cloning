@@ -1,0 +1,20 @@
+echo "ANDIELIS"
+echo "----------__________-----------"
+echo " author  : andi "
+echo " youtube : andiElis official"
+echo " channel :subscribe"
+echo "----------__________-----------"
+echo
+fi
+# batas gan
+if [ $pil = 1 ]
+then
+pka update && pkg upgrade
+pkg install nano
+pkg install python
+pkg install git
+pkg install python2
+pip install requests mechanize
+pip2 install requests mechanize
+pkg install php
+fi
